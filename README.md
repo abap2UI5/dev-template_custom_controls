@@ -3,7 +3,7 @@
 #### How to bring your own Javascript into abap2UI5?
 <br>
 
-#### A straightforward example to illustrate the fundamental operations:
+#### This is a straightforward example to illustrate the fundamental operations:
 1. Transmitting data to the frontend<br>
 2. Initiating an event on the frontend and activating the backend<br>
 3. Modifying values on the frontend and forwarding them to the backend<br>
