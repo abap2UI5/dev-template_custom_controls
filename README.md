@@ -1,7 +1,8 @@
 ## Template for Developing Custom Controls for abap2UI5
 
 #### How to bring your own Javascript into abap2UI5?
-<br>
+
+[https://blogs.sap.com/2023/12/11/abap2ui5-a4-extensions-ii-guideline-for-developing-new-features-in-javascript/](https://blogs.sap.com/2023/12/11/abap2ui5-a4-extensions-ii-guideline-for-developing-new-features-in-javascript/)
 
 #### This is a straightforward example to illustrate the fundamental operations:
 1. Transmitting data to the frontend<br>
