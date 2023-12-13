@@ -9,6 +9,9 @@
 2. Initiating an event on the frontend and activating the backend<br>
 3. Modifying values on the frontend and forwarding them to the backend<br>
 4. Executing a frontend function via backend trigger<br>
-<br>
 
 _This repository contains a frontend app which can be used for developing your own JavaScript Logic and an abapGit repository to see how to integrate it into the backend logic of abap2UI5._
+
+
+#### The follwing Custom Controls are already part of abap2UI5:
+[https://github.com/abap2UI5/abap2UI5-documentation/blob/main/docs/custom_controls.md](https://github.com/abap2UI5/abap2UI5-documentation/blob/main/docs/custom_controls.md)
