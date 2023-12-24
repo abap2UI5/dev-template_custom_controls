@@ -17,8 +17,7 @@ CLASS zcl_a2ui5_my_custom_control IMPLEMENTATION.
 
   METHOD get_js.
 
-    result = `jQuery.sap.declare("z2ui5.MyCustomControl");` && |\n|  &&
-             `sap.ui.require([` && |\n|  &&
+    result = `sap.ui.define("z2ui5/MyCustomControl", [` && |\n|  &&
              `  "sap/ui/core/Control"` && |\n|  &&
              `], (Control) => {` && |\n|  &&
              `  "use strict";` && |\n|  &&
