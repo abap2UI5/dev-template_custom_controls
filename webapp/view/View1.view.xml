@@ -1,9 +1,41 @@
-<mvc:View controllerName="project1.controller.View1"
-    xmlns:mvc="sap.ui.core.mvc" displayBlock="true"
-    xmlns="sap.m" xmlns:z2ui5="project1.control">
-    <Page id="page" title="{i18n>title}">
+<mvc:View
+    controllerName="project1.controller.View1"
+    xmlns:mvc="sap.ui.core.mvc"
+    displayBlock="true"
+    xmlns="sap.m"
+    xmlns:z2ui5="project1.control"
+    xmlns:table="sap.ui.table"
+>
+    <Page
+        id="page"
+        title="{i18n>title}"
+    >
         <content>
-        <z2ui5:MyCustomControl id="test" value="{/MY_BINDED_VALUE}" change="onMyBackendChangeHandler" checkCallMyFunction="true"/>
+            <z2ui5:MyCustomControl
+                id="test"
+                value="{/MY_BINDED_VALUE}"
+                change="onMyBackendChangeHandler"
+                checkCallMyFunction="true"
+            />
+
+            <z2ui5:MultiInput
+                id="test2"
+                tokenUpdate="onTokenUpdate"
+                submit="onSubmit"
+                removedTokens="{/removedTokens}"
+                addedTokens="{/addedTokens}"
+                tokens="{
+			path: '/tokens'
+		}"
+            >
+                <z2ui5:tokens>
+                    <Token
+                        key="{key}"
+                        text="{text}"
+                    />
+                </z2ui5:tokens>
+            </z2ui5:MultiInput>
+            <z2ui5:DebuggingTools id="Dev"/>
         </content>
     </Page>
 </mvc:View>

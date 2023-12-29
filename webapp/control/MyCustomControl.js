@@ -1,4 +1,4 @@
-sap.ui.define([
+sap.ui.define("project1/control/MyCustomControl",[
 	"sap/ui/core/Control"
 ], (Control) => {
 	"use strict";
